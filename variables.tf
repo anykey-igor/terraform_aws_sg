@@ -9,7 +9,7 @@ variable "region" {
 variable "name" {
   description = "Name to be used on all resources as prefix"
   type        = string
-  default     = "LAUNCH-TEMPLATE"
+  default     = "SECURITY-GROUP"
 }
 variable "environment" {
   description = "Environment for service"
